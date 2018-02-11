@@ -57,7 +57,7 @@ set(XIVAP_PLUGIN_NAME "X-IvAp")
 
 option(IVAOBUILD "Build for IVAO" OFF)
 option(XFSBUILD "Build for XFS" ON)
-option(LEGACY_BUILD_MODE "Build without using XPLM300 API" OFF)
+option(LEGACY_BUILD_MODE "Build without using XPLM300 API" ON)
 
 CMAKE_DEPENDENT_OPTION(USE_TEAMSPEAK "Build teamspeak support" ON "IVAOBUILD" OFF)
 
