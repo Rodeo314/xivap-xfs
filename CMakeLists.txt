@@ -73,7 +73,7 @@ endif()
 
 if(XFSBUILD)
 	add_definitions(-DXFS -DXPMP_CLIENT_NAME="xfs" -DXPMP_CLIENT_LONGNAME="X-FlightServer")
-	set(XIVAP_PLUGIN_NAME "X-FlightServer")
+	set(XIVAP_PLUGIN_NAME "XFS")
 endif()
 
 if(NOT LEGACY_BUILD_MODE)
